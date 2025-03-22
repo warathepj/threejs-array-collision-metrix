@@ -17,28 +17,41 @@ A simple Three.js-based demonstration of 3D collision detection between objects 
 
 ## Getting Started
 
-TODO:
-
 1. Clone this repository:
 
-   ```bash git clone [your-repository-url]
+   ```bash
+    git clone https://github.com/warathepj/threejs-array-collision-metrix.git
 
    ```
 
-2. Serve the files using a local web server. For example, using Python: ```bash
-   # Python 3 python -m http.server
-   # Python 2
-   python -m SimpleHTTPServer ```
+2. Serve the files using a local web server. For example, using Python:
+
+```bash
+
+# Python 3 python -m http.server
+
+# Python 2
+
+python -m SimpleHTTPServer
+```
+
 3. Open your browser and navigate to:
 
-   ```http://localhost:8000
+```
+http://localhost:8000
 
-   ```
+```
 
 ## Project Structure
 
-- `index.html` - Main HTML file with Three.js imports and scene container- `index.js` - Main JavaScript file containing Three.js scene setup and collision logic
+- `index.html` - Main HTML file with Three.js imports and scene container
+- `index.js` - Main JavaScript file containing Three.js scene setup and collision logic
 - `collision/ArrayCollisionMatrix.js` - Implementation of the collision matrix system
+
+  TODO:
+
+////////////
+///////////
 
 ## Controls
 
